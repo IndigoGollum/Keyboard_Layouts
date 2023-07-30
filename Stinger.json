@@ -1,0 +1,29 @@
+{
+  "title": "Stinger",
+  "onScreen": {
+    "main": [
+      "[4D:0][4D:1][4D:2][4D:3][4D:4][4D:5][4D:6][4D:7][4D:8][4D:9]",
+      "[4D:'@?‽⸮][][4D:.:;/\"][][4D:ovlxj][][4D:nhwrp][][4D:,*!-_][][4D:[DEL][WDEL] [DEL→]][]",
+      "[LEFT][4D:tgmdf][SPACE][4D:ecuyb][RIGHT]",
+      "[TOOL][SHIFT][4D:aqzi][4D:ðskp][ALTGR][ENTER]"
+    ],
+    "shifted": [
+      "[4D:0][4D:1][4D:2][4D:3][4D:4][4D:5][4D:6][4D:7][4D:8][4D:9]",
+      "[4D:^<≤>≥][][4D:%([LB])[RB]][][4D:OVLXJ][][4D:NHWRP][][4D:#{+}=][][4D:[DEL][WDEL] [DEL→]][]",
+      "[LEFT][4D:TGMDF][SPACE][4D:ECUYB][RIGHT]",
+      "[TOOL][SHIFT][4D:AQZI][4D:ÐSKÞ][ALTGR][ENTER]"
+    ],
+    "altGr": [
+      "[4D:0][4D:1][4D:2][4D:3][4D:4][4D:5][4D:6][4D:7][4D:8][4D:9]",
+      "[4D:'@?‽⸮][][4D:.:;/\"][][4D:ovlxj][][4D:nhwrp][][4D:,*!-_][][4D:[DEL][WDEL] [DEL→]][]",
+      "[LEFT][4D:tgmdf][SPACE][4D:ecuyb][RIGHT]",
+      "[TOOL][SHIFT][4D:aqzi][4D:ðskp][ALTGR][ENTER]"
+    ],
+    "altGrShifted": [
+      "[4D:0][4D:1][4D:2][4D:3][4D:4][4D:5][4D:6][4D:7][4D:8][4D:9]",
+      "[4D:^<≤>≥][][4D:%([LB])[RB]][][4D:OVLXJ][][4D:NHWRP][][4D:#{+}=][][4D:[DEL][WDEL] [DEL→]][]",
+      "[LEFT][4D:TGMDF][SPACE][4D:ECUYB][RIGHT]",
+      "[TOOL][SHIFT][4D:AQZI][4D:ÐSKÞ][ALTGR][ENTER]"
+    ]
+  }
+}

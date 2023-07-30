@@ -1,0 +1,29 @@
+{
+  "title": "Stinger-15",
+  "onScreen": {
+    "main":			[
+        "[4D:1 359 7(][4D:ovlhj][4D:'⸮@‽?][4D:nxwrp][4D:024 68  )]",
+        "[4D:. :;\"][4D:tgmdf][SPACE][4D:ecuyb][4D:[DEL][WDEL] [FDEL]]",
+        "[SHIFT][4D:aqzi][4D:,*!-_][4D:ðskþ][ENTER]"
+    ],
+    "shifted":		[
+        "[4D:1 359 7[LB]][4D:OVLHJ][4D:%\{+\}$  /\\][4D:NXWRP][4D:024 68  [RB]]",
+        "[ALTGR][4D:TGMDF][SPACE][4D:ECUYB][4D:[DEL][WDEL] [FDEL]]",
+        "[SHIFT][4D:AQZI][4D:#<&>=≤≥°~][4D:ÐSKÞ][LOCK]"
+    ],
+	"altGr":		[
+		"øåæꞇđᵹꝺꝛƿ",
+		"ØÅÆꞆĐꝽꝹꝚǷ",
+		"§¶ȝπαβꞄſ†",
+		"[TAB][]ȜΠΑΒꞅ[LOCK][]"
+	],
+	"altGrShifted":	[
+		"øåæꞇđᵹꝺꝛƿ",
+		"ØÅÆꞆĐꝽꝹꝚǷ",
+		"§¶ȝπαβꞅſ†",
+		"[4D:[SPACE][DEL] [TAB]][]ȜΠΑΒꞄ[LOCK][]"
+    ]
+  }
+}
+    
+   
