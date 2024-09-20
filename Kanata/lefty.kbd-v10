@@ -1,0 +1,66 @@
+;; lctl+space+escape to force close Kanata
+
+;; ┌─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┲━━━━━━━━━┳━━━━━━┓
+;; │     │ ~ ` │ " ! │ C Y │ V D │ U L │ Z Q │     │     │     │     │     │     ┃         ┃ home ┃
+;; │     │ # ; │ ' ? │ c y │ v d │ u l │ z q │     │     │     │     │     │     ┃         ┃      ┃
+;; ┢━━━━━┷━┳━━━┷━┱───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┲━━━┻━┳━━━━━━━╋━━━━━━┫
+;; ┃Delete ┃Shft ┃ E   │ T F │ O G │ A B │ I K │Com- │     │     │     │     ┃     ┃       ┃ pgup ┃
+;; ┃Bksp ⌫ ┃⇧    ┃ e   │ t f │ o g │ a b │ i k │pose │     │     │     │     ┃     ┃       ┃      ┃
+;; ┣━━━━━━━┻┳━━━━┹┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┺┳━━━━┻━━━━━━━╋━━━━━━┫
+;; ┃Ctrl    ┃ . ^ │ R J │ N P │ S W │ H X │ M   │     │     │     │     │     ┃            ┃ pgdn ┃
+;; ┃        ┃ , : │ r j │ n p │ s w │ h x │ m   │     │     │     │     │     ┃            ┃      ┃
+;; ┣━━━━━━━━┻━━━┱─┴───┬─┴───┬─┴───┬─┴───┬─┴───┬─┴───┬─┴───┬─┴───┬─┴───┬─┴───┲━┻━━━━━━━━━━━━╋━━━━━━┫
+;; ┃ ⏎ Enter    ┃ 9 @ │ 8 $ │ 7 [ │ 6 ] │ 5 % │     │     │     │     │     ┃              ┃  end ┃
+;; ┃            ┃ 4 _ │ 3 & │ 2 ( │ 1 ) │ 0 - │     │     │     │     │     ┃              ┃      ┃
+;; ┣━━━━━━━┳━━━━┻━━┳━━┷━━━━┳┷━━━━━┷━━━━━┷━━━━━┷━━━━━┷━━━━━┷━━━━┳┷━━━━━╈━━━━━┻┳━━━━━━┳━━━━━━╋━━━━━━┫
+;; ┃       ┃       ┃Altgr  ┃                                   ┃      ┃      ┃  /   ┃__/\__┃   \  ┃
+;; ┃       ┃       ┃       ┃ ␣ Space         ↹ Tab             ┃      ┃      ┃  \   ┃  \/  ┃   /  ┃
+;; ┗━━━━━━━┻━━━━━━━┻━━━━━━━┹───────────────────────────────────┺━━━━━━┻━━━━━━┻━━━━━━┻━━━━━━┻━━━━━━┛
+;; Delete on AltGr+Backspace
+;; Shift & AltGr are one shot keys
+
+(defsrc
+  grv  1    2    3    4    5    6    7    8    9    0    -    =    bspc
+  tab  q    w    e    r    t    y    u    i    o    p    [    ]    comp
+  caps a    s    d    f    g    h    j    k    l    ;    '    ret
+  lsft z    x    c    v    b    n    m    ,    .    /    rsft
+  lctl lmet lalt           spc            ralt rctl
+)
+(deflayer main
+  ✗    S-3  '    c    v    u    z    ✗    ✗    ✗    ✗    ✗    ✗    ✗
+  bspc @os1 e    t    o    a    i    comp ✗    ✗    ✗    ✗    ✗    ✗
+  lctl comm r    n    s    h    m    ✗    ✗    ✗    ✗    ✗    ✗
+  ret     4    3    2    1    0    ✗    ✗    ✗    ✗    ✗    ✗
+  _    _    @os3             spc          ✗    ✗
+)
+(deflayer shift
+  ✗   S-grv apo  S-c  S-v  S-u  S-z  ✗    ✗    ✗    ✗    ✗    ✗    ✗
+  bspc _    S-e  S-t  S-o  S-a  S-i  _    ✗    ✗    ✗    ✗    ✗    ✗
+  lctl .    S-r  S-n  S-s  S-h  S-m  ✗    ✗    ✗    ✗    ✗    ✗
+  ret  9    8    7    6    5    ✗    ✗    ✗    ✗    ✗    ✗
+  _    _    @saltgr          spc          ✗    ✗
+)
+(deflayer AltGraph
+  ✗    ;    S-/  y    d    l    q    ✗    ✗    ✗    ✗    ✗    ✗    ✗
+  del  @os2 _    f    g    b    k    _    ✗    ✗    ✗    ✗    ✗    ✗
+  lctl S-;  j    p    w    x    _    ✗    ✗    ✗    ✗    ✗    ✗
+  ret  S--  S-7  S-9  S-0  -    ✗    ✗    ✗    ✗    ✗    ✗
+  _    _    @os3             tab          ✗    ✗
+)
+(deflayer AltGraph-Shifted
+  ✗    grv  S-1  S-y  S-d  S-l  S-q  ✗    ✗    ✗    ✗    ✗    ✗    ✗
+  del  @os1 _    S-f  S-g  S-b  S-k  _    ✗    ✗    ✗    ✗    ✗    ✗
+  lctl S-6  S-j  S-p  S-w  S-x  _    ✗    ✗    ✗    ✗    ✗    ✗
+  ret  S-2  S-4  lbrc rbrc S-5  ✗    ✗    ✗    ✗    ✗    ✗
+  _    _    @os3             spc          ✗    ✗
+)
+
+(defalias
+;; One-shot mods
+  altgr (layer-while-held AltGraph)
+  saltgr (layer-while-held AltGraph-Shifted)
+  sft (layer-while-held shift)
+  os1 (one-shot-release 2000 @sft)
+  os2 (one-shot-release 2000 @saltgr)
+  os3 (one-shot-release 2000 @altgr)
+)
