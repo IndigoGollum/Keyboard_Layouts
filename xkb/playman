@@ -1,0 +1,99 @@
+	// First row
+    key <TLDE> {[  U002B,   U002A,   U007C,   U2020 ]}; // Plus, Asterisk, Pipe, Dagger
+    key <AE01> {[  U002D,   U005E,   U005F,   U1AB4 ]}; // Hypen-minus, Circumflex, Underscore, Combining triple dot
+    key <AE02> {[  U002F,   U005C,   U0040,   U007E ]}; // Slash, Backslash, At Sign, Tilde
+    key <AE03> {[  U0064,   U0044,   UA77A,   UA779 ]}; // Lowercase D, Capital D, Lowercase insular D, Capital insular D
+    key <AE04> {[  U0072,   U0052,   U0279,   U02DE ]}; // Lowercase R, Capital R, Lowercase turned R, Rhotic hook
+    key <AE05> {[  U0077,   U0057,   U01BF,   U01F7 ]}; // Lowercase W, Capital W, Lowercase wynn, Capital wynn
+    key <AE06> {[  U0062,   U0042,   U03B2,   UA7D5 ]}; // Lowercase B, Capital B, Lowercase beta, Small double wynn
+    key <AE07> {[  U0071,   U0051,   U2122          ]}; // Lowercase Q, Capital Q, Trademark Sign
+    key <AE08> {[  U006B,   U004B                   ]}; // Lowercase K, Capital K
+    key <AE09> {[  U0075,   U0055,   U028C          ]}; // Lowercase U, Capital U, Turned V
+    key <AE10> {[  U00FE,   U00DE                   ]}; // Lowercase thorn, Capital thorn
+    key <AE11> {[  U0079,   U0059,   U021D,   U021C ]}; // Lowercase Y, Capital Y, Lowercase yogh, Capital yogh
+    key <AE12> {[  U002C,   U003B,   U0241          ]}; // Comma, Semicolon, Glottal stop
+
+    //Second row
+    key <AD01> {[  Shift_L                          ]}; // 
+    key <AD02> {[  U0061,   U0041,   U03B1,   U0391 ]}; // Lowercase A, Capital A, Lowercase Alpha, Capital Alpha
+    key <AD03> {[  U0073,   U0053,   U017F,   U00A7 ]}; // Lowercase S, Capital S, Long S, Section sign
+    key <AD04> {[  U0068,   U0048,   U0267          ]}; // Lowercase H, Capital H, Small H with hook
+    key <AD05> {[  U0074,   U0054,   UA787,   UA786 ]}; // Lowercase T, Capital T, Lowercase insular T, Capital insular T
+    key <AD06> {[  U00F0,   U00D0,   U0111,   U0110 ]}; // Lowercase eth, Capital eth, Lowercase D with stroke, Capital D with stroke
+    key <AD07> {[  U0067,   U0047,   U1D79,   UA77D ]}; // Lowercase G, Capital G, Lowercase insular G, Capital insular G
+    key <AD08> {[  U006E,   U004E,   U014B,   U014A ]}; // Lowercase N, Capital N, Lowercase eng, Capital eng
+    key <AD09> {[  U0065,   U0045,   U03B5,   U0259 ]}; // Lowercase E, Capital E, Lowercase epsilon, Schwa
+    key <AD10> {[  U006F,   U004F,   U0254,   U028A ]}; // Lowercase O, Capital O, Lowercase open O, Lowercase upsilon
+    key <AD11> {[  U0069,   U0049,   U03B9,   U221E ]}; // Lowercase I, Capital I, Lowercase iota, Infinity
+    key <AD12> {[  Shift_R                          ]}; // 
+
+    //Third row
+    key <AC01> {[  U0027,   U003F,   U2E2E,   U2019 ]}; // Apostrophe, Question mark, Rhetorical question mark, Right single quote mark
+    key <AC02> {[  U007A,   U005A                   ]}; // Lowercase Z, Capital Z, Lowercase tone two
+    key <AC03> {[  U0078,   U0058                   ]}; // Lowercase X, Capital X
+    key <AC04> {[  U006D,   U004D,   U03BC,   U039C ]}; // Lowercase M, Capital M, Lowercase mu, Capital mu
+    key <AC05> {[  U0063,   U0043,   U00A9          ]}; // Lowercase C, Capital C, Copyright sign
+    key <AC06> {[  U0076,   U0056,   U028B          ]}; // Lowercase V, Capital V, V with hook
+    key <AC07> {[  U0066,   U0046,   UA77C,   UA77B ]}; // Lowercase F, Capital F, lowercase insular F, Capital insular F
+    key <AC08> {[  U0070,   U0050,   U03C0,   U03A0 ]}; // Lowercase P, Capital P, Lowercase pi, Capital pi
+    key <AC09> {[  U006c,   U004C,   U03BB,   U039B ]}; // Lowercase L, Capital L, Lowercase lambda, Capital lambda
+    key <AC10> {[  U006A,   U004A,   U23FF          ]}; // Lowercase J, Capital J, Observing Eye
+    key <AC11> {[  U002E,   U003A,   U00B7,   U0307 ]}; // Period, Colon, Middle dot, Combining dot above
+
+    //Fourth Row
+    key <AB01> {[  U0030,   U003D,   U2260,   U2248 ]}; // Zero, Equals sign, Not equal to, Almost equal to
+    key <AB02> {[  U0031,   U0021,   U003C,   U2264 ]}; // One, Exclamation mark, Less than, Less than or equal to
+    key <AB03> {[  U0032,   U0022,   U003E,   U2265 ]}; // Two, Quotation mark, Greater than, Greater than or equal to
+    key <AB04> {[  U0033,   U0023,   U005B,   U007B ]}; // Three, Number sign, Left bracket, Left brace
+    key <AB05> {[  U0034,   U0024,   U005D,   U007D ]}; // Four, Dollar Sign, Right bracket, Right brace
+    key <AB06> {[  U0035,   U0025                   ]}; // Five, Percent sign
+    key <AB07> {[  U0036,   U0026                   ]}; // Six, Ampersand 
+    key <AB08> {[  U0037,   U0028                   ]}; // Seven, Left parenthese
+    key <AB09> {[  U0038,   U0029                   ]}; // Eight, Right parenthese
+    key <AB10> {[  U0039,   U00B0                   ]}; // Nine, Degree sign
+    
+    //Other Keys
+    key <SPCE> {[  U0020,   U0020                   ]}; // Space, Space
+	key <BKSL> {[  Multi_key, Multi_key, Multi_key, Multi_key ]}; // Compose key
+    key <TAB>  {[  BackSpace, BackSpace             ]}; // Tab to backspace
+    key <CAPS> {[  Tab                              ]}; // Caps lock to tab
+    key <LFSH> {[  Shift_R                          ]}; // Right shift
+    key <RTSH> {[  Shift_L                          ]}; // Left shift
+	key <LALT> {[  Control_L, Control_L, Control_L, Control_L ]}; // Left control
+	key <LCTL> {[  Meta_L, Meta_L, Meta_L, Meta_L   ]}; // Left Alt
+	key <BKSL> {[  Compose, Compose, Compose, Compose ]}; //Compose
+
+	// Implement AltGr and AltGr+Shift
+	// For some reason, include "level3(ralt_switch)" doesn't do the trick.
+	key <RALT> {
+		type[Group1]="TWO_LEVEL",
+		[ ISO_Level3_Shift, Multi_key ]
+	};
+};
+//
+//
+// ┌─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┲━━━━━━━━━┳━━━━━━┓
+// │ * † │ ^  ᪴ │ \ ~ │ D † │ R ˞ │ W Ƿ │ B † │ Q   │ K   │ U   │ Þ   │ Y Ȝ │ ;   ┃Backspace┃ home ┃
+// │ + | │ - _ │ / @ │ d † │ r ʀ │ w ƿ │ b β │ q ™ │ k   │ u ʌ │ þ   │ y ȝ │ , Ɂ ┃ ⌫       ┃      ┃
+// ┢━━━━━┷━┳━━━┷━┱───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┲━━━┻━┳━━━━━━━╋━━━━━━┫
+// ┃Bksp   ┃Shft ┃ A Α │ S § │ H   │ T † │ Ð Đ │ G Ᵹ │ N Ŋ │ E Ε │ O ʊ │ I ∞ ┃Shft ┃ Com-  ┃ pgup ┃
+// ┃ ⌫     ┃L ⇧  ┃ a α │ s ſ │ h ɧ │ t † │ ð đ │ g † │ n ŋ │ e ε │ o ɔ │ i ι ┃R ⇧  ┃ pose  ┃      ┃
+// ┣━━━━━━━┻┳━━━━┹┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┺┳━━━━┻━━━━━━━╋━━━━━━┫
+// ┃Tab     ┃ ? ‽ │ Z   │ X   │ M Μ │ C   │ V   │ F † │ L Λ │ P Π │ J   │ : ̇  ┃ ⏎ Enter    ┃ pgdn ┃
+// ┃ ↹      ┃ ' ⸮ │ z   │ x   │ m μ │ c © │ v ʋ │ f † │ l λ │ p π │ j † │ . · ┃            ┃      ┃
+// ┣━━━━━━━━┻━━━┱─┴───┬─┴───┬─┴───┬─┴───┬─┴───┬─┴───┬─┴───┬─┴───┬─┴───┬─┴───┲━┻━━━━━━━━━━━━╋━━━━━━┫
+// ┃Shift⇧      ┃ = ≈ │ ! ≤ │ " ≥ │ # { │ $ } │ %   │ &   │ (   │ )   │ °   ┃Shift⇧        ┃  end ┃
+// ┃R           ┃ 0 ≠ │ 1 < │ 2 > │ 3 [ │ 4 ] │ 5   │ 6   │ 7   │ 8   │ 9   ┃L             ┃      ┃
+// ┣━━━━━━━┳━━━━┻━━┳━━┷━━━━┱┴─────┴─────┴─────┴─────┴─────┴────┲┷━━━━━╈━━━━━┻┳━━━━━━┳━━━━━━╋━━━━━━┫
+// ┃Alt    ┃ Fn    ┃Ctrl   ┃ ␣ Space                           ┃AltGr ┃Ctrl  ┃  /   ┃__/\__┃   \  ┃
+// ┃       ┃       ┃       ┃ ␣ Space                           ┃      ┃      ┃  \   ┃  \/  ┃   /  ┃
+// ┗━━━━━━━┻━━━━━━━┻━━━━━━━┹───────────────────────────────────┺━━━━━━┻━━━━━━┻━━━━━━┻━━━━━━┻━━━━━━┛
+// †Character does not fit, see higher comments. AltGr+Shift+Plus is an actual dagger.
+//
+// To do:
+// add repeat keys on Ð and G
+// move J to Þ, move G to J, remove Þ and Ð
+// add delete on AltGr+Backspace
+// replace default shifts with copy/paste?
+// replace default shifts with extra layer keys?
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
