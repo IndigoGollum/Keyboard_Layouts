@@ -1,0 +1,13 @@
+{
+"title": "Ghost",
+"onScreen": {
+"main":[
+"[4D:1[LEFT][UNDO][RIGHT][W.LEFT]][4D:2[LEFT][WDEL][RIGHT][W.LEFT]][4D:3[LEFT][WDEL][RIGHT][W.LEFT]][4D:4[LEFT][WDEL][RIGHT][W.LEFT]][4D:5[LEFT][WDEL][RIGHT][W.LEFT]][4D:6[LEFT][WDEL][RIGHT][W.RIGHT]][4D:7[LEFT][WDEL][RIGHT][W.RIGHT]][4D:8[LEFT][WDEL][RIGHT][W.RIGHT]][4D:9[LEFT][WDEL][RIGHT][W.RIGHT]][4D:0[LEFT][REDO][RIGHT][W.RIGHT]]",
+"[4D:å Å][4D:l[DEL]L[FDEL]\<][][4D:w[DEL]W[FDEL]/][][4D:þ[DEL]Þ[FDEL]:][][4D:u[DEL]U[FDEL];][][4D:y[DEL]Y[FDEL]\\][][4D:p[DEL]P[FDEL]\>][][4D:[U+0301]    ]",
+"[4D:q Q][4D:r[DEL]R[FDEL][LB]][][4D:s[DEL]S[FDEL](][][4D:t[DEL]T[FDEL]-][][4D:ð[DEL]Ð[FDEL]\'][][4D:i[DEL]I[FDEL])][][4D:o[DEL]O[FDEL][RB]][][4D:x X]",
+"[4D:j J][4D:m[DEL]M[FDEL]&][][4D:n[DEL]N[FDEL].][][4D:d[DEL]D[FDEL],][][4D:h[DEL]H[FDEL]?][][4D:e[DEL]E[FDEL]!][][4D:b[DEL]B[FDEL]\"][][4D:z Z]",
+"[4D:æ Æ][4D:v[DEL]V[FDEL]~][][4D:f[DEL]F[FDEL]_][][4D:c[DEL]C[FDEL]⸮][][4D:a[DEL]A[FDEL]‽][][4D:g[DEL]G[FDEL][U+030A]][][4D:k[DEL]K[FDEL]*][][4D:ø Ø]",
+"[123][][SPACE][][SPACE][][ENTER][]"
+]
+}
+}
