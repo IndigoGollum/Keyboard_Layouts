@@ -1,0 +1,15 @@
+{"title": "\'Ελινικ",
+"onScreen": {
+"main":[
+	"[SHIFT][4D:ε[WDEL]Ε][4D:τ[W.LEFT]Τ[W.RIGHT]][4D:υ?Υ][4D:η\"Η][4D:ω!Ω]",
+	"[4D:ο[DEL]Ο[FDEL]][4D:σ[LEFT] [RIGHT]Σς][4D:λ[LEFT]Λ[RIGHT]][4D:\'[LEFT][U+0301][RIGHT]][4D:ι[LEFT]Ι[RIGHT]][4D:π[DEL]Π[FDEL]]",
+	"[4D:χ[DEL]Χ[FDEL]][4D:ν[LEFT]Ν[RIGHT]][4D:δ[LEFT]Δ[RIGHT]][4D:α[LEFT]Α[RIGHT]][4D:θ[LEFT]Θ[RIGHT]][4D:ζ[DEL]Ζ[FDEL]]",
+	"[4D:γ[DEL]Γ[FDEL]][4D:φ[LEFT]Φ[RIGHT]][4D:κ[LEFT]Κ[RIGHT]][4D:μ[LEFT]Μ[RIGHT]][4D:ρ[LEFT]Ρ[RIGHT]][4D:β[DEL]Β[FDEL]]",
+	"[123].[SPACE][],[ENTER]"
+],
+"shifted":[
+	"[CUT][COPY][PASTE]",
+	"[UNDO][ALL][REDO]",
+	"[SHIFT][SPACE][DEL]"
+]
+}}
