@@ -1,0 +1,18 @@
+{
+"title": "Γωστ",
+"onScreen": {
+"main":[
+	"[SHIFT][][4D:.[WDEL]?:†][4D:,[W.LEFT]-[W.RIGHT]§][4D:\"[UNDO]![REDO]&]",
+	"[4D:ο[LEFT]Ο[RIGHT]][4D:λ[DEL]Λ[FDEL]][4D:υ[DEL]Υ[FDEL]][4D:η[DEL]Η[FDEL]][4D:π[LEFT]Π[RIGHT]]",
+	"[4D:σ[LEFT] [RIGHT] Σς][4D:τ[DEL]Τ[FDEL]][4D:θ[DEL]Θ[FDEL]][4D:ι[DEL]Ι[FDEL]][4D:ω[LEFT]Ω[RIGHT]]",
+	"[4D:ν[LEFT]Ν[RIGHT]][4D:δ[DEL]Δ[FDEL]][4D:\'[DEL][U+0301][FDEL]][4D:ε[DEL]Ε[FDEL]][4D:β[LEFT]Β[RIGHT]]",
+	"[4D:φ[LEFT]Φ[RIGHT]][4D:κ[DEL]Κ[FDEL]][4D:α[DEL]Α[FDEL]][4D:γ[DEL]Γ[FDEL]][4D:ζ[LEFT]Ζ[RIGHT]]",
+	"[4D:ξ[LEFT]Ξ[RIGHT]][4D:ρ[DEL]Ρ[FDEL]][4D:μ[DEL]Μ[FDEL]][4D:ψ[DEL]Ψ[FDEL]][4D:χ[LEFT]Χ[RIGHT]]",
+	"[123][][SPACE][][SPACE][][ENTER][]"
+],
+"shifted":[
+	"[CUT][COPY][PASTE]",
+	"[UNDO][ALL][REDO]",
+	"[SHIFT][SPACE][DEL]"
+]
+}}
