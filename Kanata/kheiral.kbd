@@ -1,0 +1,148 @@
+;; lctl+space+escape to force close Kanata
+
+;; Main layout
+;; Home row is on OAET TEAO, use thumbs for botton row.
+;; ┏━━━━━━━━━┳━━━━━┳━━━━━┳━━━━━┳━━━━━┳━━━━━┳━━━━━┳━━━━━┳━━━━━┳━━━━━┳━━━━━┳━━━━━┳━━━━━┳━━━━━┱──────┬──────┲━━━━━━┓
+;; ┃ Esc     ┃ F1  ┃ F2  ┃ F3  ┃ F4  ┃ F5  ┃ F6  ┃ F7  ┃ F8  ┃ F9  ┃ F10 ┃ F11 ┃ F12 ┃ Del ┃ /    │ *    ┃Power ┃
+;; ┡━━━━━┯━━━┻━┯━━━┻━┯━━━┻━┯━━━┻━┯━━━┻━┯━━━┻━┯━━━┻━┯━━━┻━┯━━━┻━┯━━━┻━┯━━━┻━┯━━━┻━┳━━━┻━━━━━╉──────┼──────╄━━━━━━┩
+;; │ * † │ ^ ` │ ;   │ R   │ M   │ I   │ W   │     │ L   │ I   │ M   │ R   │ Y   ┃Backspace┃      │      │      │
+;; │ + | │ - _ │ ,   │ r   │ m   │ i   │ w   │     │ l   │ i   │ m   │ r   │ y   ┃ ⌫       ┃ -    │ +    │ .    │
+;; ┢━━━━━┷━┳━━━┷━┱───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┲━━━┻━┳━━━━━━━╉──────┼──────┼──────┤
+;; ┃Bksp ⌦ ┃Shft ┃ O J │ A P │ E V │ T Q │ L   │ U   │ T Z │ E K │ A B │ O X ┃Shft ┃Compose┃      │      │      │
+;; ┃ ⌫     ┃L ⇧  ┃ o j │ a p │ e v │ t q │ l   │ u   │ t z │ e k │ a b │ o x ┃R ⇧  ┃       ┃ 7    │ 8    │ 9    │
+;; ┣━━━━━━━┻┳━━━━┹┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┺┳━━━━┻━━━━━━━╉──────┼──────┼──────┤
+;; ┃ Tab    ┃ :   │ D   │ H   │ N   │ S   │ C   │ C   │ S   │ N   │ H   │ D   ┃ ⏎ Enter    ┃      │      │      │
+;; ┃  ↹     ┃ . ? │ d   │ h   │ n   │ s   │ c   │ c   │ s   │ n   │ h   │ d   ┃            ┃ 4    │ 5    │ 6    │
+;; ┣━━━━━━━━┻━━━┱─┴───┬─┴───┬─┴───┬─┴───┬─┴───┬─┴───┬─┴───┬─┴───┬─┴───┲━┷━━━┳━┻━━━━━┳━━━━━━╉──────┼──────┼──────┤
+;; ┃ Shift⇧     ┃     │ \ ~ │ [   │ ]   │ G   │ {   │ }   │ F   │ !   ┃Mouse┃Shift⇧ ┃  /\  ┃      │      │      │
+;; ┃ R          ┃     │ / @ │ (   │ )   │ g   │ "   │ '   │ f   │ =   ┃Mode ┃L      ┃  ||  ┃ 1    │ 2    │ 3    │
+;; ┣━━━━━━━┳━━━━┻━┳━━━┷━━━━┱┴─────┴─────┴─────┴─────┴─────┴┲━━━━┷┳━━━━┻┳━━━━┻┳━━━━━━╋━━━━━━╋━━━━━━╅──────┴──────┤
+;; ┃ Alt   ┃ Fn   ┃ Ctrl   ┃                               ┃AltGr┃Ctrl ┃Menu ┃  /_  ┃  ||  ┃  _\  ┃             │
+;; ┃       ┃      ┃        ┃ ␣ Space                       ┃     ┃     ┃     ┃  \‾  ┃  \/  ┃  ‾/  ┃ 0           │
+;; ┗━━━━━━━┻━━━━━━┻━━━━━━━━┹───────────────────────────────┺━━━━━┻━━━━━┻━━━━━┻━━━━━━┻━━━━━━┻━━━━━━┹─────────────┘
+
+(defsrc
+  grv  1    2    3    4    5    6    7    8    9    0    -    =    bspc
+  tab  q    w    e    r    t    y    u    i    o    p    [    ]    bksl
+  caps a    s    d    f    g    h    j    k    l    ;    '    ret
+  lsft z    x    c    v    b    n    m    ,    .    /    rsft
+  lctl lmeta lalt          spc            ralt menu rctl
+  kp-  kp+  kp.
+  kp7  kp8  kp9
+  kp4  kp5  kp6
+  kp1  kp2  kp3
+  kp/  kp*  kp0
+)
+
+
+(deflayer Main
+  S-=  -    ,    r    m    i    w     ✗    l    i    m    r    y    _
+  bspc @os1 o    a    e    t    l     u    t    e    a    o    @os4 ralt
+  tab  .    d    h    n    s    c     c    s    n    h    d    _
+  rsft ✗    /    S-9  S-0  g    S-'   '    f    =    @tms lsft
+  lalt _    lctl           spc            @os2  rctl menu
+  _    _    _
+  _    _    _
+  _    _    _
+  _    _    _
+  _    _    _
+)
+(deflayer Caps
+  S-8  S-6  scln S-r  S-m  S-i  S-w  _    S-l  S-i  S-m  S-r  S-y  _
+  _    _    S-o  S-a  S-e  S-t  S-l  S-u  S-t  S-e  S-a  S-o  _    _
+  _    .    S-d  S-h  S-n  S-s  S-c  S-c  S-s  S-n  S-h  S-d  _
+  @os1 _    bksl [    ]    S-g  S-[  S-]  S-f  S-1    _    @os1
+  _    _    _              _              @os3 _    _
+  home _    _
+  pgup _    _
+  pgdn _    _
+  end  _    _
+  _    _    _
+)
+(deflayer AltGraph
+  S-\  S--  _    _    _    _    _    _    _    _    _    _    _    _
+  del  @os3 j    p    v    q    _    _    z    k    b    x    @os3 _
+  _    _    _    _    _    _    _    _    _    _    _    _    _
+  @os3 _    S-2  _    _    _    _    _    _    _    _    @os3
+  _    _    _              _              @os2 _    _
+  _    _    _
+  _    _    _
+  _    _    _
+  _    _    _
+  _    _    _
+)
+(deflayer AltGraphShifted
+  @†  grv  _    _    _    _    _    _    _    _    _    _    _    _
+  del  _    S-j  S-p S-v  S-q   _    _    S-z  S-k  S-b  S-x    _    _
+  _    _    _    _    _    _    _    _    _    _    _    _    _
+  _    _   S-grv _    _    _    _    _    _    _    _    @sft
+  _    _    _               _              @os2 _    _
+  _    _    _
+  _    _    _
+  _    _    _
+  _    _    _
+  _    _    _
+)
+(deflayer Mouse
+  ✗    ✗    ✗    ✗    ✗    ✗    ✗    ✗    ✗    ✗    ✗    ✗    ✗    _
+  ✗    ✗    @mup mlft mrgt ✗    ✗    ✗    ✗    ✗    ✗    ✗    ✗    ✗
+  ✗    @mlf @mdn @mrg mmid ✗    ✗    ✗    ✗    ✗    ✗    ✗    ✗
+  @whl ✗    ✗    ✗    ✗    ✗    ✗    ✗    ✗    ✗    @tkb ✗
+  ✗    ✗    ✗              @mfs           ✗    ✗    _
+  _    _    _
+  _    _    _
+  _    _    _
+  _    _    _
+  _    _    _
+)
+(deflayer MouseWheel
+  _    _    _    _    _    _    _    _    _    _    _    _    _    _
+  _    _    @msu mltp mrtp _    _    _    _    _    _    _    _    _
+  _    @msl @msd @msr mmtp _    _    _    _    _    _    _    _
+  @whl _    _    _    _    _    _    _    _    _    _    _
+  _    _    _              ✗              _    _    _
+  _    _    _
+  _    _    _
+  _    _    _
+  _    _    _
+  _    _    _
+)
+(deflayer MouseFast
+  _    _    _    _    _    _    _    _    _    _    _    _    _    _
+  _    _    @fmu mlft mrgt _    _    _    _    _    _    _    _    _
+  _    @fml @fmd @fmr mmid _    _    _    _    _    _    _    _
+  @whl _    _    _    _    _    _    _    _    _    _    _
+  _    _    _              @mfs           _    _    _
+  _    _    _
+  _    _    _
+  _    _    _
+  _    _    _
+  _    _    _
+)
+
+(defalias
+  sft (layer-while-held Caps)
+  altgr (layer-while-held AltGraph)
+  saltgr (layer-while-held AltGraphShifted)
+  os1 (one-shot-release 2000 @sft)
+  os2 (one-shot-release 2000 @altgr)
+  os3 (one-shot-release 2000 @saltgr)
+  os4 (one-shot-release 2000 @sft)
+  tms (layer-switch Mouse)
+  tkb (layer-switch Main)
+  whl (layer-while-held MouseWheel)
+  mup (movemouse-up 3 1)
+  mlf (movemouse-left 3 1)
+  mdn (movemouse-down 3 1)
+  mrg (movemouse-right 3 1)
+  fmu (movemouse-up 3 2)
+  fml (movemouse-left 3 2)
+  fmd (movemouse-down 3 2)
+  fmr (movemouse-right 3 2)
+  msu (mwheel-up 50 120)
+  msl (mwheel-left 50 120)
+  msd (mwheel-down 50 120)
+  msr (mwheel-right 50 120)
+  mfs (layer-while-held MouseFast)
+  † (unicode †)
+)
